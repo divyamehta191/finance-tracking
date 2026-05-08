@@ -105,14 +105,14 @@ if (sort === "oldest") {
     className={activePage === "form" ? "active" : ""}
     onClick={() => setActivePage("form")}
   >
-    Form
+   Create Record
   </button>
 
   <button
     className={activePage === "list" ? "active" : ""}
     onClick={() => setActivePage("list")}
   >
-    List
+    Transaction History
   </button>
 </div>
 

@@ -356,12 +356,12 @@ h1 {
   }
 
   .controls {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 2fr;
   }
 
-  .top-buttons {
+  /* .top-buttons {
     flex-direction: column;
-  }
+  } */
 
   .card {
     flex-direction: column;
