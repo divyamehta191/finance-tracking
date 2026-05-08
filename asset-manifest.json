@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.51531430.css",
-    "main.js": "/static/js/main.0a30ba52.js",
-    "static/js/453.76cec66e.chunk.js": "/static/js/453.76cec66e.chunk.js",
-    "index.html": "/index.html",
-    "main.51531430.css.map": "/static/css/main.51531430.css.map",
-    "main.0a30ba52.js.map": "/static/js/main.0a30ba52.js.map",
-    "453.76cec66e.chunk.js.map": "/static/js/453.76cec66e.chunk.js.map"
+    "main.css": "/finance-tracking/static/css/main.51531430.css",
+    "main.js": "/finance-tracking/static/js/main.ad549560.js",
+    "static/js/453.76cec66e.chunk.js": "/finance-tracking/static/js/453.76cec66e.chunk.js",
+    "index.html": "/finance-tracking/index.html",
+    "main.51531430.css.map": "/finance-tracking/static/css/main.51531430.css.map",
+    "main.ad549560.js.map": "/finance-tracking/static/js/main.ad549560.js.map",
+    "453.76cec66e.chunk.js.map": "/finance-tracking/static/js/453.76cec66e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51531430.css",
-    "static/js/main.0a30ba52.js"
+    "static/js/main.ad549560.js"
   ]
 }
