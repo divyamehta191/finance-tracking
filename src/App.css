@@ -309,7 +309,7 @@ h1 {
 
 
 .list p {
-  text-align: center;
+  /* text-align: center; */
   color: #64748b;
 }
 
@@ -364,7 +364,7 @@ h1 {
   } */
 
   .card {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: flex-start;
     gap: 10px;
   }
