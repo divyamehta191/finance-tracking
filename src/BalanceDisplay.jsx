@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function BalanceDisplay({ transactions }) {
+ function BalanceDisplay({ transactions }) {
   const income = transactions
     .filter((item) => item.category === "Income")
-    .reduce((acc, item) => acc + item.amount, 0);
+    .reduce((sum, item) => sum + item.amount, 0);
 
   const expense = transactions
     .filter((item) => item.category === "Expense")
-    .reduce((acc, item) => acc + item.amount, 0);
+    .reduce((sum, item) => sum + item.amount, 0);
 
   const balance = income - expense;
 
@@ -22,3 +22,5 @@ export default function BalanceDisplay({ transactions }) {
     </div>
   );
 }
+
+export default BalanceDisplay

@@ -33,7 +33,6 @@ export default function App() {
     localStorage.setItem("transactions", JSON.stringify(transactions));
   }, [transactions]);
 
-  /* add transaction */
 
   const addTransaction = (transaction) => {
     setTransactions([
@@ -55,8 +54,8 @@ export default function App() {
   let filteredTransactions = [...transactions];
 
   if (filter !== "All") {
-    filteredTransactions = filteredTransactions.filter(
-      (item) => item.category === filter
+    filteredTransactions = filteredTransactions.filter((item) =>
+      item.category === filter
     );
   }
 

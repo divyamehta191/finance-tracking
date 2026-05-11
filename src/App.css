@@ -13,10 +13,7 @@ body {
   padding: 40px 16px;
   color: #0f172a;
 
-  background:
-    radial-gradient(circle at top, #dbeafe, transparent 60%),
-    radial-gradient(circle at bottom, #ede9fe, transparent 60%),
-    #f8fafc;
+  background:white;
 
   transition: 0.3s ease;
 }

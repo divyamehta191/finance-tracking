@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TransactionList({
+function TransactionList({
   transactions,
   deleteTransaction,
 }) {
@@ -29,3 +29,5 @@ export default function TransactionList({
     </div>
   );
 }
+
+export default TransactionList
